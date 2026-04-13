@@ -1,7 +1,7 @@
-# Perfect Lap Composite — Telemetry-Based Analysis
+# Perfect Lap Composite - Telemetry-Based Analysis
 
 A data-driven system that reconstructs a driver's theoretical fastest lap
-by combining the best mini-sector times recorded across a full race weekend.
+by combining the best mini-sector times recorded across a full race(F1 race) weekend.
 
 ---
 
@@ -99,7 +99,7 @@ Perfect Lap Time = Σ min(mini_sector_i_time)  for i in 1..18
 ## Key Concepts
 
 - **Mini-sector**: Track divided into 18 segments (~250–320 m each)
-- **Perfect Lap**: Theoretical construct — not physically achievable in a single lap
+- **Perfect Lap**: Theoretical construct - not physically achievable in a single lap
 - **Delta**: Time difference between the perfect lap and the actual qualifying lap
 - **Heatmap**: Visual tool to identify which segments have the most recoverable time
 
